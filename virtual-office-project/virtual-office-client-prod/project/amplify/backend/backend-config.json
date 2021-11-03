@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "VirtualSquereAuth": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "api": {}
+}

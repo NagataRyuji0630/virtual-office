@@ -1,0 +1,26 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - aws --version
+      - echo Entering install phase
+      - cd project
+      - npm ci --no-progress
+  pre_build:
+    commands:
+      - echo Entering pre_build phase
+  build:
+    commands:
+      - echo Entering build phase
+      - ls
+      - npm run build
+      - ls
+      - echo Success build phase
+
+  post_build:
+    commands:
+      - echo Entering postbuild phase
+      - aws s3 sync dist/ s3://virtual-office-web-dev --delete
+      - echo Build completed

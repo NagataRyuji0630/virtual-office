@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-project-dev-102424-authRole",
+      "UnauthRoleArn": "arn:aws:iam::616026021527:role/amplify-project-dev-102424-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::616026021527:role/amplify-project-dev-102424-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-project-dev-102424-deployment",
+      "UnauthRoleName": "amplify-project-dev-102424-unauthRole",
+      "StackName": "amplify-project-dev-102424",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:616026021527:stack/amplify-project-dev-102424/75727fa0-2c61-11eb-9134-06aa9b7dfc56",
+      "AmplifyAppId": "d363siu9gyj4co"
+    }
+  },
+  "auth": {
+    "VirtualSquereAuth": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-project-dev-102424-deployment/amplify-cfn-templates/auth/VirtualSquereAuth-cloudformation-template.yml",
+        "logicalId": "authVirtualSquereAuth"
+      },
+      "lastPushTimeStamp": "2021-04-04T02:05:40.056Z",
+      "output": {
+        "UserPoolId": "ap-northeast-1_KXvFehCTz",
+        "AppClientIDWeb": "6pc6l4vih2n3fut9necc2lstvv",
+        "AppClientID": "7uv9h7qm4ljc0oas72sa6a57ij",
+        "UserPoolName": "VirtualSquereUserGroup"
+      },
+      "lastPushDirHash": "Kc83iy4RWIXL4KZGRIZsTLioFYQ="
+    }
+  },
+  "api": {
+    "Virtual-Office-AppSync": {
+      "service": "AppSync",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY"
+          },
+          "additionalAuthenticationProviders": null
+        },
+        "GraphQLAPIIdOutput": "m5lugrfhrferbaz56xvgcsfoou",
+        "GraphQLAPIEndpointOutput": "https://3h5qxmqtozh6njgfu3utog5wmm.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+        "name": "Virtual-Office-AppSync",
+        "region": "ap-northeast-1",
+        "GraphQLAPIKeyOutput": "da2-z7htycdjxzduta57tkk57rlcou"
+      },
+      "lastPushTimeStamp": "2021-03-19T11:54:50.028Z"
+    }
+  }
+}

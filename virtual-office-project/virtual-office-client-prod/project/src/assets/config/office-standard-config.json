@@ -1,0 +1,277 @@
+{
+    "map_name": "office-standard",
+    "first_session": {
+        "id": "",
+        "1": {
+            "x": 605,
+            "y": 135,
+            "centerX": 620,
+            "centerY": 160,
+            "width": 30,
+            "height": 50,
+            "sitting": true,
+            "seatedPerson": "A",
+            "action": {
+                "name": "first_session_1"
+            }
+        },
+        "2": {
+            "x": 713,
+            "y": 135,
+            "centerX": 728,
+            "centerY": 160,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "first_session_2"
+            }
+
+        },
+        "3": {
+            "x": 605,
+            "y": 215,
+            "centerX": 620,
+            "centerY": 240,
+            "width": 30,
+            "height": 50,
+            "sitting": true,
+            "seatedPerson": "B",
+            "action": {
+                "name": "first_session_3"
+            }
+
+        },
+        "4": {
+            "x": 713,
+            "y": 215,
+            "centerX": 728,
+            "centerY": 240,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "first_session_4"
+            }
+        },
+        "5": {
+            "x": 605,
+            "y": 295,
+            "centerX": 620,
+            "centerY": 320,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "first_session_5"
+            }
+        },
+        "6": {
+            "x": 713,
+            "y": 295,
+            "centerX": 728,
+            "centerY": 320,
+            "width": 30,
+            "height": 50,
+            "sitting": true,
+            "seatedPerson": "C",
+            "action": {
+                "name": "first_session_6"
+            }
+
+        },
+        "7": {
+            "x": 605,
+            "y": 370,
+            "centerX": 620,
+            "centerY": 395,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "first_session_7"
+            }
+
+        },
+        "8": {
+            "x": 713,
+            "y": 370,
+            "centerX": 728,
+            "centerY": 395,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "first_session_8"
+            }
+
+        }
+    },
+    "second_session": {
+        "id": "",
+        "1": {
+            "x": 405,
+            "y": 215,
+            "centerX": 420,
+            "centerY": 240,
+            "width": 30,
+            "height": 50,
+            "sitting": true,
+            "seatedPerson": "D",
+            "action": {
+                "name": "second_session_1"
+            }
+        },
+        "2": {
+            "x": 512,
+            "y": 215,
+            "centerX": 537,
+            "centerY": 240,
+            "width": 30,
+            "height": 50,
+            "sitting": true,
+            "seatedPerson": "E",
+            "action": {
+                "name": "second_session_2"
+            }
+        },
+        "3": {
+            "x": 405,
+            "y": 290,
+            "centerX": 420,
+            "centerY": 315,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "second_session_3"
+            }
+        },
+        "4": {
+            "x": 512,
+            "y": 290,
+            "centerX": 537,
+            "centerY": 315,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "second_session_4"
+            }
+        },
+        "5": {
+            "x": 405,
+            "y": 370,
+            "centerX": 420,
+            "centerY": 395,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "second_session_5"
+            }
+        },
+        "6": {
+            "x": 512,
+            "y": 370,
+            "centerX": 537,
+            "centerY": 395,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "second_session_6"
+            }
+        }
+    },
+    "third_session": {
+        "id": "",
+        "1": {
+            "x": 205,
+            "y": 215,
+            "centerX": 220,
+            "centerY": 240,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "third_session_1"
+            }
+        },
+        "2": {
+            "x": 315,
+            "y": 215,
+            "centerX": 330,
+            "centerY": 240,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "third_session_2"
+            }
+        },
+        "3": {
+            "x": 205,
+            "y": 290,
+            "centerX": 220,
+            "centerY": 315,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "third_session_3"
+            }
+        },
+        "4": {
+            "x": 315,
+            "y": 290,
+            "centerX": 330,
+            "centerY": 315,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "third_session_4"
+            }
+        },
+        "5": {
+            "x": 205,
+            "y": 370,
+            "centerX": 220,
+            "centerY": 395,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "third_session_5"
+            }
+        },
+        "6": {
+            "x": 315,
+            "y": 370,
+            "centerX": 330,
+            "centerY": 395,
+            "width": 30,
+            "height": 50,
+            "sitting": false,
+            "seatedPerson": "",
+            "action": {
+                "name": "third_session_6"
+            }
+        }
+    }
+}
